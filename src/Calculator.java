@@ -39,7 +39,7 @@ public class Calculator {
                 answer = firstNum / secondNum;
                 break;
             default:
-
+                System.out.println("Invalid operator. Press 1, 2, 3, or 4 to select operator.");
         }
 
         System.out.println("Result: " + answer);
